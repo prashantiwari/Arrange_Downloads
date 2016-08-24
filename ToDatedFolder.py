@@ -20,9 +20,9 @@ for x in lis:
 		continue
 	shutil.move(x, destinationDir)
 
-destinationpython = destinationDir + '\manager.py'
+destinationpython = destinationDir + '\ToDatedFolder.py'
 print destinationpython
 
 sleep(5)
 
-shutil.copy('C:\Users\Prashant Tiwari\Downloads\Temp\manager.py','C:\Users\Prashant Tiwari\Downloads\Temp')
+shutil.copy('C:\Users\Prashant Tiwari\Downloads\Temp\ToDatedFolder.py','C:\Users\Prashant Tiwari\Downloads\Temp')
