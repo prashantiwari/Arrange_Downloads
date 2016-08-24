@@ -1,6 +1,5 @@
 import os
 import shutil
-import sys
 from datetime import datetime
 from time import sleep
 todaystring = str(datetime.now())
@@ -26,4 +25,4 @@ print destinationpython
 
 sleep(5)
 
-shutil.copy('C:\Users\Prashant Tiwari\Downloads\Temp\ToDatedFolder.py','C:\Users\Prashant Tiwari\Downloads\Temp')
+shutil.copy(destinationpython,'C:\Users\Prashant Tiwari\Downloads\Temp')
